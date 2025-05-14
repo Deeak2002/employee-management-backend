@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: employee-management-backend
-    env: java
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/*.jar
-    envVars:
-      - key: JAVA_HOME
-        value: /opt/render/project/.render/java/openjdk17
